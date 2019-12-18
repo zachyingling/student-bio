@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
         <title>
-            Zach's Student Bio
+            Student Bio
         </title>
+
+        <meta charset="UTF-8">
     </head>
+
     <body>
-        <h1>Student Bio</h1>
-        <h4>Zach Yingling</h4>
-        <img src="portrait.jpg" height="300" width="200">
-        <p>
-            I'm an 18 year old that likes to play video games and lift. I'm a manager at a local ice cream shop. Currently I am taking a full stack web
-             development course to start freelancing and make websites for businesses.
-        </p>
-        <h1>Contact Info</h1>
-        <ul>
-            <li>
-                <strong>
-                    Email:
-                </strong>
-                <a href="#">zpyingling9559@gmail.com</a>
-            </li>
-            <li>
-                <strong>
-                    Github: 
-                </strong>
-                <a href="https://github.com/zachyingling">zachyingling</a>
-            </li>
-            <li>
-                <strong>
-                    Portfolio:
-                </strong>
-                <a href="#">Coming soon</a>
-            </li>
-        </ul>
+        <div class="main-bio">
+            <div class="title-bio">
+                <h1>Student Bio</h1>
+                <h2 id="name">Zach Yingling</h2>
+            </div>
+            <div class="content-bio">
+                <img src="./portrait.jpg" id="photo" height="300" width="180">
+                <br>
+                <p id="paragraph-bio">
+                    I'm an 18 year old that likes to play video games and lift. I'm a manager at a local ice cream shop. Currently I am taking a full stack web 
+                    development course to start freelancing and make websites for businesses.
+                </p>
+            </div>
+
+            <div class="contact-info">
+                <h1 id="contact-title">Contact Info</h1>
+                <ul>
+                    <div id="contact-text">
+                        <li><strong>Email: </strong><a href="#">zpyingling9559@gmail.com</a></li>
+                        <li><strong>Github: </strong><a href="https://github.com/zachyingling">zachyingling</a></li>
+                        <li><strong>Portfolio: </strong><a href="#">Coming soon</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

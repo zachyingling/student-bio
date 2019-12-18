@@ -1,0 +1,64 @@
+h1, h2 {
+    margin: 0px;
+    position: static;
+}
+
+a {
+    color: rgb(134, 241, 170);
+}
+
+body {
+    background-color: salmon;
+    margin: 0px;
+}
+
+#name {
+    background-color: rgb(215, 215, 215);
+}
+
+.title-bio {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.content-bio {
+    background-color: #5b626b;
+    height: 350px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+#photo {
+    float: left;
+    border: 5px solid black;
+    margin: 15px;
+    position: static;
+    margin-left: 30px;
+}
+
+#paragraph-bio {
+    text-indent: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -20px;
+    color: white;
+}
+
+.contact-info {
+    clear: both;
+    overflow: auto;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#contact-title, #contact-text {
+    clear: both;
+    float: left;
+    margin-left: 20px;
+}
